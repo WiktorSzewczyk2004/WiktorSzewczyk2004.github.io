@@ -12,7 +12,7 @@
 	font-size:30px;
 	padding:5px;
 	text-align: center;
-	width: 300px
+	width: 250px
 }
 
 #stop {
@@ -20,6 +20,6 @@
     background: white;
 	border:16px solid red;
     border-radius: 50%;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
 }
