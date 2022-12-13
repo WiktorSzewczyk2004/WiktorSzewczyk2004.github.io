@@ -1,0 +1,79 @@
+    * {
+margin: 0;
+padding: 0;
+font-family: "Arial";
+box-sizing: border-box;
+}
+
+header {
+height: 20VH;
+width: 100%;
+background-color: palegreen;
+color: darkred;
+text-align: center;
+line-height: 500%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Przyciski {
+float: left;
+height: 70VH;
+width: 30%;
+background-color: lightgray;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.Button {
+width: 60%;
+height: 10%;
+background-color: white;
+border: 10px outset brown;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Rysunek {
+height: 70VH;
+width: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer {
+height: 10VH;
+width: 100%;
+background-color: greenyellow;
+color: darkred;
+display: flex;
+justify-content: right;
+align-items: center;
+}
+
+.stopka {
+width: 100%;
+margin-right: 5%;
+text-align: right;
+font-size: 30px;
+}
+
+a {
+text-decoration: none;
+color: darkred;
+font-size: 30px;
+}
+
+h1 {
+font-size: 50px;
+}
+
+img {
+height: 55VH;
+}
