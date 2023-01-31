@@ -30,6 +30,7 @@ header h1 {
       display: flex;
       justify-content: space-evenly;
       flex-direction: row;
+      flex-wrap: wrap;
       background-color: rgb(226, 154, 211);
 }
 
