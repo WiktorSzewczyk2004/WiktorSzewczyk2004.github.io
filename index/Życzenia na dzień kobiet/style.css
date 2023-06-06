@@ -1,0 +1,40 @@
+body {
+    background-color: palegoldenrod;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+}
+
+h1, h4 {
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: lightcoral;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 70vh;
+    padding-top: 5vh;
+}
+
+img {
+    height: 35vh;
+    width: 35vw;
+    padding: 5vh;
+}
+
+footer {
+    background-color: lightcoral;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
