@@ -1,0 +1,42 @@
+#as {
+position: absolute;
+left: 100px;
+top: 100px; 
+z-index: 1;
+cursor: pointer;
+}
+
+#krol {
+position: absolute;
+left: 125px;
+top: 125px; 
+z-index: 2;
+cursor: pointer;
+}
+
+#dama {
+position: absolute;
+left: 150px;
+top: 150px; 
+z-index: 3;
+cursor: pointer;
+}
+
+#walet {
+position: absolute;
+left: 175px;
+top: 175px; 
+z-index: 4;
+cursor: pointer;
+}
+
+#rew {
+position: absolute;
+left: 200px;
+top: 200px; 
+z-index: 5;
+}
+
+#as:active, #krol:active, #dama:active, #walet:active {
+    z-index: 6;
+}
