@@ -36,7 +36,7 @@ header h1 {
 
 .przycisk {
       width: 15%;
-      height: 15vh;
+      height: 12vh;
       background-color: whitesmoke;
       display: flex;
       justify-content: space-evenly;
