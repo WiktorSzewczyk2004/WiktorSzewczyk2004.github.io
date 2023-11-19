@@ -1,0 +1,111 @@
+body{
+margin: 0;
+width: 100vw;
+height: 100vh;
+font-size:1.2em;
+}
+
+header {
+background:silver;
+height: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p {
+margin: 0;
+padding: 0;
+}
+
+main {
+height: 90%;
+}
+
+.sekcja1 {
+background:aqua;
+height: 50%;
+width: 50%;
+float: left;
+}
+
+.sekcja2 {
+background:green;
+height: 50%;
+width: 50%;
+float: left;
+}
+
+.sekcja3 {
+background:red;
+height: 50%;
+width: 50%;
+float: left;
+}
+
+.sekcja4 {
+background:darkorange;
+height: 50%;
+width: 50%;
+float: left;
+}
+
+footer {
+background:blue;
+height: 5%;
+clear: both;
+}
+
+@media screen and (max-width:1000px)
+{
+body{
+margin: 0;
+width: 100vw;
+height: 100vh;
+font-size:1.2em;
+}
+
+header {
+background:silver;
+height: 5%;
+text-align:center;
+}
+
+main {
+height: 90%;
+}
+
+.sekcja1 {
+background:aqua;
+height: 25%;
+width: 100%;
+float: left;
+}
+
+.sekcja2 {
+background:green;
+height: 25%;
+width: 100%;
+float: left;
+}
+
+.sekcja3 {
+background:red;
+height: 25%;
+width: 100%;
+float: left;
+}
+
+.sekcja4 {
+background:darkorange;
+height: 25%;
+width: 100%;
+float: left;
+}
+
+footer {
+background:blue;
+height: 5%;
+clear: both;
+}
+}
